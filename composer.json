@@ -1,0 +1,22 @@
+{
+    "name": "baykier/epressnd",
+    "description": "a small program to query express for people dameoned",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "baykier",
+            "email": "aigoudebook@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "overtrue/wechat": "~3.1"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
