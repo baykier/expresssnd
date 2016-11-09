@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8c46f6001d45b86e7320ce0f84a095fb",
-    "content-hash": "e43fee01b7c7b16abda4062da5cb82a6",
+    "hash": "16f2af4bf2e045cb19c9fecedc200fd1",
+    "content-hash": "53556ee1ab8b3db78410e3df517fdde0",
     "packages": [
         {
             "name": "doctrine/cache",
@@ -576,6 +576,52 @@
                 "psr-3"
             ],
             "time": "2016-10-10 12:19:37"
+        },
+        {
+            "name": "slim/pdo",
+            "version": "1.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FaaPz/Slim-PDO.git",
+                "reference": "9424e6d5f3737a71722ab1f868c1d3090b63287d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.phpcomposer.com/files/FaaPz/Slim-PDO/9424e6d5f3737a71722ab1f868c1d3090b63287d.zip",
+                "reference": "9424e6d5f3737a71722ab1f868c1d3090b63287d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Slim\\PDO\\": "src/PDO/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabian de Laender",
+                    "email": "fabian@faapz.nl",
+                    "homepage": "http://faapz.nl",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PDO database library for Slim Framework",
+            "homepage": "https://github.com/FaaPz/Slim-PDO",
+            "keywords": [
+                "database",
+                "framework",
+                "pdo",
+                "slim"
+            ],
+            "time": "2016-08-14 11:42:49"
         },
         {
             "name": "symfony/http-foundation",
